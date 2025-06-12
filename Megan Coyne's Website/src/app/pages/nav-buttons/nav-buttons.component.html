@@ -1,0 +1,8 @@
+<div class="sidebar d-flex flex-column p-3">
+  <div class="btn-bar flex-grow-1 d-flex flex-column gap-3">
+    <a *ngFor="let page of pages" [routerLink]="page.url" [ngClass]="getLinkClasses(page.url)">
+      {{ page.name }}
+    </a>
+
+  </div>
+</div>

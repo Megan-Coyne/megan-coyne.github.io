@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megan's Resume and CV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .pdf-container {
+            margin-bottom: 2rem;
+        }
+
+        .pdf-embed {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 4px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 p-0">
+                <app-nav-buttons></app-nav-buttons>
+              </div>
+            <main class="col-md-10 p-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4">
+                        <h1 class="display-4 text-primary">My Resume and CV</h1>
+                        <p class="lead">Feel free to take a look or download!</p>
+                    </div>
+                    <!-- PDF section row -->
+                    <div class="row">
+                        <div class="col-md-6 pdf-container d-flex flex-column align-items-center">
+                            <h2 class="text-primary mb-3">Resume</h2>
+                            <embed class="pdf-embed" src="assets/pdf/MeganCoyneResume.pdf" width="100%" height="800px" />
+                        </div>
+                        <div class="col-md-6 pdf-container d-flex flex-column align-items-center">
+                            <h2 class="text-primary mb-3">Curriculum Vitae</h2>
+                            <embed class="pdf-embed" src="assets/pdf/MeganCoyneCV.pdf" width="100%" height="800px" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </div>
+    <script src="assets/js/nav.js"></script>
+</body>
+
+</html>
