@@ -95,6 +95,9 @@
             ],
             "scripts": ["src/assets/js/nav.js"]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
