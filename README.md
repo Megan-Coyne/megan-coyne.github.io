@@ -1,3 +1,3 @@
 # MeganCoyne
 
-https://megan-coyne.github.io/MeganCoyne/
+https://megan-coyne.github.io/
