@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "site": {
+    "coyne": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/site",
+            "outputPath": "dist/coyne",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "site:build:production"
+              "buildTarget": "coyne:build:production"
             },
             "development": {
-              "buildTarget": "site:build:development"
+              "buildTarget": "coyne:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -103,6 +103,6 @@
     }
   },
   "cli": {
-    "analytics": "c07b4101-728d-44cb-aaee-786934890734"
+    "analytics": "77ac3ac0-c0f8-4d3e-b888-4e3e8e18758c"
   }
 }
