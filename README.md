@@ -1,8 +1,5 @@
-## For Deployment
+## Megan's Website
 
-```bash
-cd coyne
-npm install
-ng build --configuration production
-ng deploy --base-href=/ 
-```
+Written using Angular and Bootstrap. Enjoy!
+
+<a href="https://megan-coyne.github.io/">https://megan-coyne.github.io/</a>
