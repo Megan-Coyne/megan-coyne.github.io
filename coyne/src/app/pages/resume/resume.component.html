@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <style>
         .pdf-container {
+            width: 100%;
+            max-width: 100%;
             margin-bottom: 2rem;
         }
 
         .pdf-embed {
+            width: 100%;
+            height: 80vh;
             border: 1px solid #ccc;
             border-radius: 8px;
             padding: 4px;
@@ -36,16 +40,23 @@
                     </div>
                     <!-- PDF section row -->
                     <div class="row">
-                        <div class="col-md-6 pdf-container d-flex flex-column align-items-center">
-                            <h2 class="text-primary mb-3">Resume</h2>
-                            <iframe class="pdf-embed" src="assets/pdf/MeganCoyneResume.pdf" width="100%" height="800px"
-                                style="border:none;"></iframe>
+                        <div class="row">
+                            <div class="col-12 col-md-6 pdf-container d-flex flex-column align-items-center">
+                                <h2 class="text-primary mb-3">Resume</h2>
+                                <iframe class="pdf-embed" src="assets/pdf/MeganCoyneResume.pdf" width="100%"
+                                    height="800px" style="border:none;"></iframe>
+                                <p><a href="assets/pdf/MeganCoyneResume.pdf" target="_blank">Open Resume in new tab</a>
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-md-6 pdf-container d-flex flex-column align-items-center">
+                                <h2 class="text-primary mb-3">Curriculum Vitae</h2>
+                                <iframe class="pdf-embed" src="assets/pdf/MeganCoyneCV.pdf" width="100%" height="800px"
+                                    style="border:none;"></iframe>
+                                <p><a href="assets/pdf/MeganCoyneCV.pdf" target="_blank">Open CV in new tab</a></p>
+                            </div>
                         </div>
-                        <div class="col-md-6 pdf-container d-flex flex-column align-items-center">
-                            <h2 class="text-primary mb-3">Curriculum Vitae</h2>
-                            <iframe class="pdf-embed" src="assets/pdf/MeganCoyneCV.pdf" width="100%" height="800px"
-                                style="border:none;"></iframe>
-                        </div>
+
                     </div>
                 </div>
             </main>
