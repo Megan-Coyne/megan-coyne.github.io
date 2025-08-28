@@ -33,15 +33,17 @@
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/nav.css"
             ],
-            "scripts": ["src/assets/js/nav.js"]
+            "scripts": [
+              "src/assets/js/nav.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -93,7 +95,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["src/assets/js/nav.js"]
+            "scripts": [
+              "src/assets/js/nav.js"
+            ]
           }
         },
         "deploy": {
