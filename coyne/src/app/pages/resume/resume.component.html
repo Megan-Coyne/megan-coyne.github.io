@@ -10,19 +10,15 @@
         .pdf-container pdf-viewer {
             width: 100%;
             height: 700px;
-            /* fixed height on desktop */
             border: 1px solid #ccc;
             border-radius: 8px;
             background: white;
         }
 
-        /* Mobile: screens smaller than 768px */
         @media (max-width: 767px) {
             .pdf-container pdf-viewer {
                 height: auto;
-                /* let it grow naturally */
                 min-height: 400px;
-                /* optional: avoid super tiny containers */
             }
         }
     </style>
