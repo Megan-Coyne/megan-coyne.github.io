@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @Component({
   selector: 'app-resume',
-  imports: [NavButtonsComponent], 
+  imports: [NavButtonsComponent, PdfViewerModule],
   templateUrl: './resume.component.html',
-  styleUrl: './resume.component.css'
+  styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent {
-
+  pdfResume = "assets/pdf/MeganCoyneResume.pdf";
+  pdfCV = "assets/pdf/MeganCoyneCV.pdf";
 }
