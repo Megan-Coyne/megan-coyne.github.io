@@ -10,6 +10,13 @@
   animation: blink-caret .7s step-end infinite;
 }
 
+.typewriter::after {
+  content: "|";
+  color: #007bff;
+  animation: blink 0.7s step-end infinite;
+  margin-left: 2px;
+}
+
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
